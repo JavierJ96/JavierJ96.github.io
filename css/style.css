@@ -119,7 +119,7 @@ p{
   overflow: hidden;
   width: 98%;
   display: inline-block;
-  margin-top: .5%;
+  margin-top: 5px;
 }
 
 .img-container:hover {
@@ -668,7 +668,25 @@ hr{
 }
 
 
+@media (max-width:345px){
+    .biography p{
+  font-weight: 300;
+  font-size: 13px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
+}
+
+@media (max-width:180px){
+    .biography p{
+  font-weight: 300;
+  font-size: 9px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+}
 
 
 
@@ -692,8 +710,9 @@ hr{
     margin-right: 5%;
 }
     
-
 }
+
+
 
 @media (max-width:425px) {
     
@@ -703,16 +722,26 @@ hr{
     text-decoration: none;
 }
     
-
 }
 
-@media (max-width:320px) {
+
+
+@media (max-width:359px) {
     
 .next-prev a{
-    font-size:10px;
+    font-size:10.5px;
     color: #0078F7;
     text-decoration: none;
 }
     
+}
 
+@media (max-width:304px) {
+    
+.next-prev a{
+    font-size:9px;
+    color: #0078F7;
+    text-decoration: none;
+}
+    
 }
